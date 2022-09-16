@@ -28,7 +28,7 @@ function App() {
         try {
             await axios
                 .get(
-                    `http://matiasbaezagraf1999.pythonanywhere.com/categories/${user}`,
+                    `https://matiasbaezagraf1999.pythonanywhere.com/categories/${user}`,
                     {}
                 )
                 .then((response) => {
@@ -43,7 +43,7 @@ function App() {
         try {
             await axios
                 .get(
-                    `http://matiasbaezagraf1999.pythonanywhere.com/expenses/${user}`,
+                    `https://matiasbaezagraf1999.pythonanywhere.com/expenses/${user}`,
                     {}
                 )
                 .then((response) => {
