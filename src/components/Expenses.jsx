@@ -61,7 +61,7 @@ const Expenses = forwardRef((props, ref) => {
         try {
             await axios
                 .delete(
-                    `http://http://matiasbaezagraf1999.pythonanywhere.com/expense/delete/${id}/`
+                    `http://matiasbaezagraf1999.pythonanywhere.com/expense/delete/${id}/`
                 )
                 .then(() => {
                     props.updateExpenses(props.userIdentification);
